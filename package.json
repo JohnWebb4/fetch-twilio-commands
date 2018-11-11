@@ -8,7 +8,9 @@
     "url": "https://github.com/JohnWebb4/fetch-twilio-commands.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "postinstall": "tsc",
+    "test": "jest . --coverage"
   },
   "keywords": [
     "Twilio",
@@ -16,5 +18,16 @@
     "Commands"
   ],
   "author": "JohnWebb4",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0"
+  }
 }
