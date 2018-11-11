@@ -1,0 +1,20 @@
+{
+  "name": "twilio-fetch-commands",
+  "version": "1.0.0",
+  "description": "Fetch my commands",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnWebb4/fetch-twilio-commands.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twilio",
+    "Fetch",
+    "Commands"
+  ],
+  "author": "JohnWebb4",
+  "license": "MIT"
+}
