@@ -1,2 +1,7 @@
-# fetch-twilio-commands
-Fetch Twilio Commands
+# Fetch Twilio Commands
+
+## Purpose: Fetch Twilio commands and log to console
+
+## License
+
+[MIT](/LICENSE)

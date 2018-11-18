@@ -1,0 +1,35 @@
+{
+  "name": "twilio-fetch-commands",
+  "version": "1.0.0",
+  "description": "Fetch my commands",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnWebb4/fetch-twilio-commands.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "prestart": "tsc",
+    "start": "node ./dist/index.js",
+    "test": "jest . --coverage"
+  },
+  "keywords": [
+    "Twilio",
+    "Fetch",
+    "Commands"
+  ],
+  "author": "JohnWebb4",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "twilio": "^3.24.0"
+  }
+}
